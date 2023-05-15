@@ -1,0 +1,22 @@
+{
+    "name": "redati/module-magento-screet-image",
+    "description": "Screet Imagens para magento",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "misael",
+            "email": "contato@redati.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Redati\\MagentoScreetImage\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
